@@ -4,8 +4,8 @@ import { GithubSec } from './styles'
 
 const Sobre = () => (
   <section>
-    <Title fontSize={16}>Sobre mim:</Title>
-    <Paragraph type="sencudario">
+    <Title fontSize={16}>About me:</Title>
+    <Paragraph type="principal">
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
       praesentium aut repudiandae ut laborum cupiditate laboriosam magnam fugit
       dolorum, consequuntur quia aliquid veniam nulla voluptatum id atque magni
