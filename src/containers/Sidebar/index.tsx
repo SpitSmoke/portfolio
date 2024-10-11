@@ -4,7 +4,11 @@ import Title from '../../components/Title'
 
 import { ButtonTheme, Description, SideBarContainer } from './styles'
 
-const Sidebar = () => (
+type Props = {
+  themeChange: () => void
+}
+
+const Sidebar = (props: Props) => (
   <aside>
     <SideBarContainer>
       <Avatar />
@@ -13,9 +17,9 @@ const Sidebar = () => (
         SpitSmoke
       </Paragraph>
       <Description type="principal" fontSize={12}>
-        Front-end Engineer
+        Full Stack Engineer
       </Description>
-      <ButtonTheme>Toggle Theme</ButtonTheme>
+      <ButtonTheme onClick={props.themeChange}>Toggle Theme</ButtonTheme>
     </SideBarContainer>
   </aside>
 )
