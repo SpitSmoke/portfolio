@@ -2,13 +2,13 @@ import Paragraph from '../Paragraph'
 import Title from '../Title'
 import { Card, LinkButton } from './styles'
 
-const Projeto = () => (
+const Restaurant = () => (
   <Card>
-    <Title>To-do List Project</Title>
-    <Paragraph type="secundario">To-do List built with VueJS</Paragraph>
+    <Title>Front-End Page For a Restaurant</Title>
+    <Paragraph type="secundario">Built with Html JavaScript & CSS</Paragraph>
     <LinkButton
       as="a"
-      href="https://github.com/SpitSmoke/exercicioVue"
+      href="https://github.com/SpitSmoke/Restaurante"
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -17,4 +17,4 @@ const Projeto = () => (
   </Card>
 )
 
-export default Projeto
+export default Restaurant

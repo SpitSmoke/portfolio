@@ -19,6 +19,10 @@ body {
   padding-top: 16px;
   }
 }
+
+a {
+  text-decoration: none;
+}
 `
 export default EstiloGlobal
 

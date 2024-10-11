@@ -1,4 +1,9 @@
 import Projeto from '../../components/Projeto'
+import Peejota from '../../components/Projeto/peejota'
+import ProjectCad from '../../components/Projeto/projectCad'
+import PythonIa from '../../components/Projeto/pythonIa'
+import Restaurant from '../../components/Projeto/restaurant'
+import SearchZip from '../../components/Projeto/searchZip'
 import Title from '../../components/Title'
 import { List } from './styles'
 
@@ -10,37 +15,19 @@ const Projetos = () => (
         <Projeto />
       </li>
       <li>
-        <Projeto />
+        <ProjectCad />
       </li>
       <li>
-        <Projeto />
+        <SearchZip />
       </li>
       <li>
-        <Projeto />
+        <PythonIa />
       </li>
       <li>
-        <Projeto />
+        <Restaurant />
       </li>
       <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
+        <Peejota />
       </li>
     </List>
   </section>
